@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corriger un Devoir - Plateforme Éducative</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Corriger un Devoir</h1>
+    </header>
+    <main>
+        <form action="correction_process.html" method="post">
+            <label for="assignment">Sélectionner un devoir :</label>
+            <select id="assignment" name="assignment">
+                <option value="devoir1">Devoir 1</option>
+                <option value="devoir2">Devoir 2</option>
+            </select>
+            <label for="comments">Commentaires :</label>
+            <textarea id="comments" name="comments" required></textarea>
+            <button type="submit">Soumettre la correction</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 Plateforme Éducative</p>
+    </footer>
+</body>
+</html>
